@@ -193,7 +193,7 @@ img {
     gap: 12px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336) {
   .header-logo {
     margin-right: 76px;
   }
@@ -227,11 +227,10 @@ img {
   pointer-events: auto;
 }
 .burger-menu-container {
-  position: relative;
-  padding-top: 72px;
-  padding-bottom: 40px;
+  position: relative;  
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   height: 100%;
 }
 .burger-menu-btn {
